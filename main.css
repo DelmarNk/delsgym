@@ -1,0 +1,70 @@
+* {
+    border: 1px red solid;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+}
+body {
+    background-color:rgb(0,22,57);
+    text-align: center;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: larger;
+    color: coral ;
+} 
+a {
+    margin: 5px;
+    color: beige;
+    font-style: unset;
+} 
+
+a:hover{
+    color: gold;
+    text-decoration: none;
+
+}
+img {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+} 
+.aboutimg {
+    object-fit: cover;
+    display: inline;
+    width: 49%;
+    height: 350px;
+
+} 
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.login {
+background-color: darkgreen;
+margin-top: 5px ;
+}
+.sign {
+text-align: center;
+margin-bottom: 10px;
+text-decoration: none;
+background-color: darkgreen;
+height: 30px;
+width: 200px;
+padding: 10px;
+border-radius: 15px;
+box-shadow: 0 5px 10px black;
+}
+.sign:hover {
+color: gold;
+}
+.icons {
+    width: 50px;
+}
+.connect {
+    text-align: left;
+    padding-left: 0;
+}
